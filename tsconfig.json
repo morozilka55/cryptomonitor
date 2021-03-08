@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "ES2017",
+      "ES5",
+      "ES6",
+      "dom",
+      "es2020.bigint"
+    ],
+    "downlevelIteration": true,
+    "target": "ES5",
+    "noImplicitAny": true,
+    "moduleResolution": "Node",
+    "module": "esnext",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src"
+  ]
+}
